@@ -29,6 +29,10 @@
     <div class="space50px"></div>
     <p>お帰り春ちゃん…♡</p>
   </div>
+  <div id="finalresultfault">
+    <div class="space50px"></div>
+    <p>春ちゃん…！！！！</p>
+  </div>
   <div><ul class="btn">
     <div class="space50px"></div>
     <input type="button" value="グー" style="width:100px; height:50px; font-size: 30px;" onclick="choose(0)">
@@ -153,14 +157,20 @@
       threewin();
 
     };
-  //華ちゃん開放
+ 
   function threewin(){
+     //春ちゃん開放ver
     if(playercount == 3){
       $("#finalresult").show();
       $("#haru").html(
     '<img src="img/freebird2.png">')
     }
-
+    //春ちゃん残念ver
+    if(pccount == 3){
+      $("#finalresultfault").show();
+      $("#haru").html(
+    '<img src="img/janken_hand/bird_attacked.png" width="500px">')
+    }
   }
 
 

@@ -33,6 +33,13 @@ main{
     text-align: center;
     }
 #finalresult{
+    display: none;
+    text-align: center;
+    font-size: 3.0rem;
+    color: white;
+    } 
+#finalresultfault{
+    display: none;
     text-align: center;
     font-size: 3.0rem;
     color: white;
@@ -76,11 +83,10 @@ main{
     gap: 30px 20px;
     }
     #cat_hand{width: 150px;}
-#finalresult{ display: none }
 
 footer{
     background-color: #000000;
-    border-bottom:1px solid #   ;
+    border-bottom:1px solid;
     text-align: center;
 }
 /* p{
